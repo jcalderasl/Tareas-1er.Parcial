@@ -15,9 +15,9 @@ public class HolaMundooo {
                 int Quetzal;
                 int opcion =0;
                 String nom;
-                Scanner entrada=new Scanner(System.in);//Para guardar los datos
+                Scanner entrada=new Scanner(System.in);
     System.out.println("Ingrese su Nombre");
-    nom = entrada.next();//next para entrada de datos
+    nom = entrada.next();
     System.out.println("Introduce la cantidad de Quetzales a convertir");
     Quetzal=entrada.nextInt();
     
